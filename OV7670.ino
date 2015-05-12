@@ -1,16 +1,16 @@
 // this program only send in serial, data as it arrived QCIF RGB.
 #include <Wire.h>
 
-int hrefPin = 13;
-int vsyncPin = 12;
-int d0Pin = 3;
-int d1Pin = 4;
-int d2Pin = 5;
-int d3Pin = 6;
-int d4Pin = 7;
-int d5Pin = 8;
-int d6Pin = 9;
-int d7Pin = 10;
+#define hrefPin 13
+#define vsyncPin 12
+#define d0Pin 3
+#define d1Pin  4
+#define d2Pin  5
+#define d3Pin  6
+#define d4Pin  7
+#define d5Pin  8
+#define d6Pin  9
+#define d7Pin  10
 int d0 = 0;
 int d1 = 0;
 int d2 = 0;
